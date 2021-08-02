@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <>
         <footer>
-          <h1 style={{ width: '100%', textAlign: 'center', fontSize: '22px' }}>
+          <h1>
             &copy; Odeh Abuzaid
           </h1>
         </footer>

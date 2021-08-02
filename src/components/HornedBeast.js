@@ -6,12 +6,11 @@ class HornedBeast extends React.Component {
     return (
       <>
         <div className='beast'>
-          <ht>{title}</ht>
+          <h3>{title}</h3>
           <br />
           <div style={{ width: '100%', height: '50%' }}>
             <img src={imgSrc} alt={title} />
           </div>
-
           <p>{description}</p>
         </div>
       </>

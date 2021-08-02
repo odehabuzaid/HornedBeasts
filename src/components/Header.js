@@ -5,7 +5,7 @@ class Header extends React.Component {
     return (
       <>
         <header>
-          <h1 style={{ width: '100%', textAlign: 'center', fontSize: '42px' }}>
+          <h1>
             Horned Beasts
           </h1>
         </header>
