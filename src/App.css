@@ -23,13 +23,15 @@ header h1 {
   }
 main{
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  width:100%;
+}
+Container {
+  margin: 2px;
 }
 .card {
-  margin: 1rem;
+  margin: 2rem;
 }
 footer{
   display: flex;
