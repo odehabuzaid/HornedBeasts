@@ -2,6 +2,7 @@
 
 `Features:`
 
+===============================
 Number and name of feature: 
 #1: Display images
 
@@ -26,6 +27,7 @@ Finish time: 2 Aug 2021 - 04:00
 
 Actual time needed to complete: 10 min.
 
+===============================
 Number and name of feature: 
 Feature #3: Bootstrap
 
@@ -37,6 +39,7 @@ Finish time: 2 Aug 2021 - 04:45
 
 Actual time needed to complete: 45 min.
 
+===============================
 Number and name of feature: 
 Stretch Goal: Add Interaction
 
