@@ -4,39 +4,20 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      bgColor: '#FFFFFF',
       fColor: '#fff',
+      colors: ['#fff', '#ee7752', '#e73c7e', '#23a6d5', '#23d5ab'],
     };
   }
-  boxClick = () => {
-    let colors = [];
-    let color;
-    while (colors.length < 100) {
-      do {
-        color = Math.floor(Math.random() * 1000000 + 1);
-      } while (colors.indexOf(color) >= 0);
-      colors.push('#' + ('000000' + color.toString(16)).slice(-6));
-    }
-    let getrnd = () => Math.floor(Math.random() * (colors.length - 1 - 0) + 0);
-    // console.log(colors[getrnd()]);
-    this.setState({
-      bgColor: colors[getrnd()],
-      color: colors[getrnd()],
-    });
+  interAction = () => {
+    let getrnd = () => Math.floor(Math.random() * this.state.colors.length);
+    this.setState({ fColor: this.state.colors[getrnd()] });
   };
   render() {
     return (
-      <header
-        style={{
-          backgroundColor: this.state.bgColor,
-          color: this.state.color,
-        }}
-        onClick={this.boxClick}
-      >
+      <header className="rounded-bottom" style={{ color: this.state.fColor }} onClick={this.interAction} >
         <h1>Horned Beasts</h1>
       </header>
     );
   }
 }
-
 export default Header;

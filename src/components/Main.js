@@ -5,11 +5,15 @@ import { Container, Col, Row } from 'react-bootstrap';
 class Main extends React.Component {
   render() {
     return (
-      <main >
-        <Container fluid className="justify-content-center">
-          <Row >
+      <main>
+        <Container
+          fluid
+          className='justify-content-center d-flex'
+          style={{ flexWrap: 'wrap' }}
+        >
+          <Row style={{ width: '100%' }} className='justify-content-center '>
             {jsonData.map((beast, index) => (
-              <Col key={index} className="justify-content-center">
+              <Col key={index} className='m-2'>
                 <HornedBeast
                   image_url={beast.image_url}
                   title={beast.title}

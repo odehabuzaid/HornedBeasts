@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button'
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -14,11 +13,10 @@ class HornedBeast extends React.Component {
       numberOfVotes: this.state.numberOfVotes + 1,
     });
   };
-
   render() {
-    const {image_url,title,description,keyword} = this.props;
+    const { image_url, title, description, keyword } = this.props;
     return (
-      <Card style={{ width: '18rem' }}>
+      <Card className='shadow rounded' style={{ minWidth: '20rem' }}>
         <Card.Img
           onClick={this.increaseNoOfVotes}
           variant='top'
@@ -37,5 +35,4 @@ class HornedBeast extends React.Component {
     );
   }
 }
-
 export default HornedBeast;
