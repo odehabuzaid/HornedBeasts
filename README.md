@@ -1,7 +1,7 @@
 # Horned Beasts
 
 `Features:`
-
+# lab 02
 ===============================
 
 Number and name of feature: 
@@ -57,3 +57,33 @@ Start time: 2 Aug 2021 - 04:45
 Finish time: 2 Aug 2021 - 05:00
 
 Actual time needed to complete: 15 min.
+
+# lab 03
+
+===============================
+
+Number and name of feature: 
+
+#1: Display a Modal
+
+Estimate of time needed to complete: 45 min
+
+Start time: 2 Aug 2021 - 02:00
+
+Finish time: 2 Aug 2021 - 02:40
+
+Actual time needed to complete: 40 min.
+
+===============================
+
+Number and name of feature: 
+
+Stretch Goal: Fuzzy search
+
+Estimate of time needed to complete: 20 min
+
+Start time: 2 Aug 2021 - 02:50
+
+Finish time: 2 Aug 2021 - 03:20
+
+Actual time needed to complete: 30 min.
