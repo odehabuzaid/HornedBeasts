@@ -14,7 +14,10 @@ class Header extends React.Component {
   };
   render() {
     return (
-      <header className="rounded-bottom" style={{ color: this.state.fColor }} onClick={this.interAction} >
+      <header
+        className="rounded-bottom"
+        style={{ color: this.state.fColor }}
+        onClick={this.interAction} >
         <h1>Horned Beasts</h1>
       </header>
     );
