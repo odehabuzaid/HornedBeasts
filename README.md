@@ -68,9 +68,9 @@ Number and name of feature:
 
 Estimate of time needed to complete: 45 min
 
-Start time: 2 Aug 2021 - 02:00
+Start time: 3 Aug 2021 - 02:00
 
-Finish time: 2 Aug 2021 - 02:40
+Finish time: 3 Aug 2021 - 02:40
 
 Actual time needed to complete: 40 min.
 
@@ -82,8 +82,20 @@ Stretch Goal: Fuzzy search
 
 Estimate of time needed to complete: 20 min
 
-Start time: 2 Aug 2021 - 02:50
+Start time: 3 Aug 2021 - 02:50
 
-Finish time: 2 Aug 2021 - 03:20
+Finish time: 3 Aug 2021 - 03:20
 
 Actual time needed to complete: 30 min.
+
+===============================
+
+Feature 1. Filter by Numbers of Horns
+
+Estimate of time needed to complete: 20 min
+
+Start time: 4 Aug 2021 - 03:10
+
+Finish time: 4 Aug 2021 - 03:45
+
+Actual time needed to complete: 35 min.
