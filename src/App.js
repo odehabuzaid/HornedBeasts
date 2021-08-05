@@ -1,10 +1,9 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './components/Main';
+import Header from './components/views/Header';
+import Footer from './components/views/Footer';
+import Main from './components/views/Main';
 
 import './App.css';
-
 function App() {
   return (
     <>
@@ -14,5 +13,4 @@ function App() {
     </>
   );
 }
-
 export default App;

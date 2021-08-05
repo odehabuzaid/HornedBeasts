@@ -1,27 +1,34 @@
 {
-  "parser": "babel-eslint",
-  "extends": "eslint:recommended",
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
   "parserOptions": {
-    "ecmaVersion": 8,
-    "sourceType": "module"
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
   },
   "env": {
-    "es6": true,
-    "jest": true,
-    "node": true
+    "browser": true,
+    "es6": true
   },
   "rules": {
-    "eol-last": "error",
     "eqeqeq": [
       "error",
       "always"
     ],
+    "no-console": "off",
+    "no-undefined": "off",
     "indent": [
       "error",
       2
     ],
-    "new-cap": "warn",
-    "no-console": "off",
+    "quotes": [
+      "warn",
+      "single"
+    ],
     "no-multi-spaces": [
       "warn",
       {
@@ -30,22 +37,31 @@
         }
       }
     ],
+    "no-trailing-spaces": "warn",
+    "new-cap": "warn",
     "no-redeclare": [
       "error",
       {
         "builtinGlobals": true
       }
     ],
-    "no-template-curly-in-string": "error",
-    "no-trailing-spaces": "warn",
-    "no-undefined": "off",
-    "quotes": [
-      "warn",
-      "single",
-      {
-        "allowTemplateLiterals": true
-      }
+    "semi": [
+      2,
+      "always"
     ],
-    "semi": "error"
+    "eol-last": "error",
+    "no-var": "error",
+    "camelcase": 0,
+    "space-in-parens": [
+      "error",
+      "always"
+    ],
+    "space-infix-ops": [
+      "error",
+      {
+        "int32Hint": false
+      }
+    ]
+    // "strict": [2, "global"]
   }
 }
