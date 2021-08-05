@@ -12,13 +12,10 @@ header {
     box-shadow: 0px 3px 3px rgba(50, 50, 50, 0.75);
     margin-bottom: 15px;
     color: #fff;
-    filter: invert(100%);
-    mix-blend-mode: difference;
     user-select: none;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    color:#fff;
 }
 header h1 {
   width: 100% ;
